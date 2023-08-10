@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>FORMS</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
+  </head>
+  <body>
+
+    <div class="container">
+      <!-- <h1>Hello World!</h1> -->
+
+      <form>
+
+        <!-- EMAIL SUBMISSION -->
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email Address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email.">
+          <small id="emailHelp" class="form-text texted-muted"> We'll never share your email with anyone else.</small>
+        </div>
+
+        <!-- Password -->
+        <div class="form-group">
+          <label for="exampleInputPassword1">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter your Password.">
+        </div>
+
+        <!-- DROPDOWN SELECT -->
+        <div class="form-group">
+          <label for="exampleSelect1">Example Select</label>
+          <select multiple class="form-control" id="exampleSelect2">
+            <option>One</option>
+            <option>Two</option>
+            <option>Three</option>
+            <option>Four</option>
+            <option>Five</option>
+          </select>
+        </div>
+
+        <!-- TEXT AREA -->
+        <div class="form-group">
+          <label for="exampleTextarea">Example Textarea</label>
+          <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+        </div>
+
+        <!-- FILE UPLOAD INPUT -->
+        <div class="form-group">
+          <label for="exampleInputFile">File input</label>
+          <input type="file" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp">
+          <small id="fileHelp" class="form-text text-muted"> This is some placeholder block-level help text for the above input. It's a bit lighter and easily warps to a new line.</small>
+        </div>
+
+        <!-- RADIO BUTTONS -->
+        <fieldset class="form-group">
+          <legend>Radio Buttons</legend>
+          <div class="form-check">
+            <label class="form-check-label">
+              <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+              Option one is this and that &dash; be sure to include why it's greate
+            </label>
+          </div>
+
+          <div class="form-check">
+            <label class="form-check-label">
+              <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="option2">
+              Option two can be something else and selecting it will deselect option One.
+            </label>
+          </div>
+
+          <div class="form-check" disabled>
+            <label class="form-check-label">
+            <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios3" value="option3" disabled>
+          </label>
+          </div>
+
+        </fieldset>
+
+        <!-- CHECK BUTTON -->
+        <div class="form-check">
+          <label class="form-check-label">
+            <input type="checkbox" class="form-check-input">
+            Check me out
+          </label>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+
+      </form>
+
+    </div>
+
+  </body>
+</html>

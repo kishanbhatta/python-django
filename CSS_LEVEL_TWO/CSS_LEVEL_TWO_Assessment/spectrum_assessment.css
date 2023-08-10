@@ -1,0 +1,32 @@
+h1{
+  text-align: center;
+}
+.spectrum{
+  margin: auto;
+}
+
+td{
+  height: 350px;
+  width: 150px;
+  border: 2px solid white;
+}
+
+#cellone{
+  background-color: #264653;
+}
+
+#celltwo{
+  background-color: #2A9D8F;
+}
+#cellthree{
+  background-color: #E9C46A;
+}
+#cellfour{
+  background-color: #F4A261;
+}
+#cellfive{
+  background-color: #E76F51;
+}
+h1{
+  font-family: 'Borel', cursive;
+}

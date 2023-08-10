@@ -1,0 +1,32 @@
+.firstDiv{
+  color: blue;
+}
+
+.secondDiv{
+  color: red;
+}
+
+#singledout{
+  color: green;
+  text-decoration: line-through;
+}
+
+h3 + ul{
+  border:4px dotted purple;
+}
+/* Any anchor tag 'a' inside the list */
+li a{
+  color: red;
+}
+
+/* Any anchor tag with particular url is selected */
+li a[href="www.smarsh.com"]{
+  color:blue;
+  border: 5px solid orange;
+}
+
+/*
+we can select everything with the astrik *. which is not a common way to use.
+*{
+  color:black;
+} */

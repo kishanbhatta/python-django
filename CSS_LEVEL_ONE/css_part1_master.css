@@ -1,0 +1,18 @@
+/*select tag {
+  property: value
+}*/
+h1{
+  color: Green;
+}
+
+li{
+  color: rgb(113, 122, 48);
+}
+
+p{
+  color: #457f85;
+}
+
+h4{
+  color: rgba(113, 122, 48, 0.7);
+}

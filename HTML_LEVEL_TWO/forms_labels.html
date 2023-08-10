@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <div>
+      <!-- Normal Use of form tags -->
+      <form>
+        <p>Enter Email:</p>
+        <!-- we are basically assigning the input to the name useremail -->
+        <input type="email" name="useremail" value="">
+        <input type="submit" name="" value="Submit">
+      </form>
+    </div>
+<br>
+    <div>
+      <form action="https://tekvortex.com" method="get">
+        <!-- takes user to the url with the userinput in it -->
+        <p>Enter Text and take me to Tekvortex Website:</p>
+        <input type="text" name="userinput" value="">
+        <input type="submit" name="" value="Submit">
+      </form>
+    </div>
+<br>
+    <div>
+      <form>
+        <!-- bad way of writing label, lets assign label to individual input -->
+        <label>
+          Enter Text:
+          <input type="text" name="" value="block one">
+        </label>
+
+        <label>
+          Enter Text:
+          <input type="text" name="" value="block two">
+        </label>
+      </form>
+    </div>
+<br>
+    <div>
+      <form>
+        <!-- Using a Label with for -->
+        <label for="userinput">Enter Input:</label>
+        <input id="userinputtype" type="text" name="" placeholder="Hello!">
+      </form>
+    </div>
+<br>
+    <div>
+      <form>
+        <!-- to make the mandatory field we can add required in the
+        inline of that particular input field -->
+        <input type="text" name="" placeholder="not required">
+        <input type="text" name="" placeholder="Required" required>
+        <input type="submit" name="" value="Submit">
+      </form>
+    </div>
+  </body>
+</html>

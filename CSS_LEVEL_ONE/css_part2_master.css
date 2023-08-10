@@ -1,0 +1,23 @@
+/* selected tag{
+property: value;
+}
+*/
+body{
+  background: url(https://cdn.pixabay.com/photo/2017/01/20/00/30/maldives-1993704_1280.jpg);
+}
+
+div{
+  background-color: rgb(69, 127, 133); /*background and background-color are same*/
+  border-color: orange;
+  border-width: 4px;
+  border-style: double;
+}
+
+p{
+  color: yellow;
+}
+
+span{
+  background: red;
+  color: black;
+}
