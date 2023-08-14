@@ -1,0 +1,27 @@
+<!-- Here are some important document attributes in DOM:
+    document.URL
+    document.body
+    document.head
+    document.links
+-->
+<!-- There are many methods for grabbing elements from the DOM:
+    document.getElementById()
+    document.getElementByClassName()
+    document.getELementByTagName()
+    document.querySelector()  //returns the first object matching the css style selector
+    document.querySelectorAll()  //returns all object matching the css style selector.
+ -->
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>My First Page</h2>
+
+<p id="demo"></p>
+
+<script>
+document.getElementById("demo").innerHTML = "Hello World!";
+</script>
+
+</body>
+</html>
