@@ -21,5 +21,7 @@ I have a Linux System so here are the steps for the Ubuntu Linux user.
 *  Go to the Anaconda Official Website.
 *  Download as per your machine preference.
 *  After download complete try below-mentioned command in your terminal:
+
   bash <filename.sh>
+
 *  Follow the Instruction.
