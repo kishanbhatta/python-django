@@ -28,6 +28,7 @@ cellOne.addEventListener('click', function(){
   }
 });
 */
+// Alternative for the above repetative code
 
 function changeMarker(){
   if(this.textContent === ''){
