@@ -22,6 +22,8 @@ I have a Linux System so here are the steps for the Ubuntu Linux user.
 *  Download as per your machine preference.
 *  After download complete try below-mentioned command in your terminal:
 
-  bash <filename.sh>
+    ```
+      bash <filename.sh>
+    ```
 
 *  Follow the Instruction.
