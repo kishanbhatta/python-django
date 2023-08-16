@@ -16,7 +16,7 @@ print(mystring[2:5]) #if you want to give the range
 print(mystring[:]) # for all
 print(mystring[::]) # we can also give two colon :: for all
 print(mystring[::1]) # if the step size is one then it print everything
-print(mystring[::2]) # if the step size is two then it print the alternat character
+print(mystring[::2]) # if the step size is two then it print the alternate character
 
 # x = mystring.upper() # to print all in uppercase
 # print(x)
