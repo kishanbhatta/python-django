@@ -1,0 +1,2 @@
+# ignore all cache file from the python compiler
+*.pyc
