@@ -78,3 +78,9 @@ out = []
 for num in x:
     out.append(num**2)
 print(out)
+
+# Smart way to write the list comprehension
+x = [5,6,7,8,9]
+
+out = [num**2 for num in x]
+print(out)
