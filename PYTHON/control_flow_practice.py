@@ -2,6 +2,8 @@
 name = 'Manish'
 if name == 'Manish':
     print(f'Hi,{name}')
+    print('hi', name)
+    print('hi'+name)
 
 if name != 'George':
     print('You are not George')
